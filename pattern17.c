@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+int n=4;
+for(int i=1;i<=n;i++){
+for(int sp=1;sp<=n - i;sp++){
+printf("   ");
+}
+for(int j=1;j<=i;j++){
+  printf("%3c",'*');
+}
+printf("\n");
+}
+}
